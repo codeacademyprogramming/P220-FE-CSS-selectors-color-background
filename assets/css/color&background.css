@@ -1,0 +1,51 @@
+body {
+    height: 5000px;
+}
+
+h1 {
+    /* hexadecimal code & rgb(a) */
+    /* color: lightcoral; */
+    /* 
+        0
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        A
+        B
+        C
+        D
+        E
+        F
+    */
+    /* color: #000; */
+    /* color: #39A935; */
+    /* 0  - 255 */
+    /* color: rgb(122, 122, 122); */
+    /* color: rgba(0, 0, 0, 1); */
+}
+
+div.background {
+    color: #fff;
+    font-size: 1.5em;
+    border: 2px solid black;
+    width: 50%;
+    height: 600px;
+    /* background: url(https://ml91fjstitvj.i.optimole.com/2e8G3Pc-WoJ5oF9r/w:300/h:300/q:auto/https://gingeraroundtheworld.com/wp-content/uploads/2017/06/48-hours-in-Baku-Azerbaijan-Flame-Towers.jpg); */
+    /* background-repeat: no-repeat; */
+    /* x - left right center
+       y - top bottom center
+    */
+    /* background-position: right top; */
+    /* background-origin: content-box; */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    background: lightblue url(https://ml91fjstitvj.i.optimole.com/2e8G3Pc-WoJ5oF9r/w:300/h:300/q:auto/https://gingeraroundtheworld.com/wp-content/uploads/2017/06/48-hours-in-Baku-Azerbaijan-Flame-Towers.jpg) no-repeat fixed center/cover;
+    /* background: url(https://ml91fjstitvj.i.optimole.com/2e8G3Pc-WoJ5oF9r/w:300/h:300/q:auto/https://gingeraroundtheworld.com/wp-content/uploads/2017/06/48-hours-in-Baku-Azerbaijan-Flame-Towers.jpg) center no-repeat cover; */
+
+}
